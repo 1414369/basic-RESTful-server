@@ -3,5 +3,7 @@ This is my frist and very basic RESTful server. </br >
 The main objective of this project is to demonstrate my understanding in Node.js and RESTful application.
 
 # A brief about the application
-The application is run on server which receive and retrieve data to a simple video rental website. </br >
-- The customer can creat his/her account by sending a post request to '/api/users'
+The role of this program is a server-side application which receive and retrieve data to a simple movie rental website. </br >
+- Customers can sign in and login to their account. Their password will be encoded and saved to a database.
+- Furthemore, the server can sort and provide movies by categories from MongoDB database.
+- The application provides authentication feature which restricts users to access admin content.
